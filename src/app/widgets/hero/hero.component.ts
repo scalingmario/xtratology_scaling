@@ -4,10 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-hero',
   standalone: true,
   template: `
-  <div class="px-6 py-3 bg-surface border-b border-borderline text-[11px] text-textmuted text-center italic">
-    ↑ Sección anterior: Scaling Up — Personas, Estrategia, Ejecución, Efectivo
-  </div>
-
   <section class="bg-gradient-to-b from-white to-slate-50 pt-12 pb-10 px-8 text-center border-b border-borderline">
     
     <div class="inline-block bg-accent/10 text-primary text-[10px] tracking-[0.2em] px-4 py-1.5 rounded-full font-medium mb-5">
