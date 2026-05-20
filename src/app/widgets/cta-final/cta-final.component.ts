@@ -16,10 +16,6 @@ import { Component } from '@angular/core';
       Conoce la metodología completa &rarr;
     </a>
   </section>
-
-  <div class="px-6 py-3 bg-surface border-t border-borderline text-[11px] text-textmuted text-center italic">
-    &darr; Sección siguiente: Casos de Éxito — Cemaco, Marcas Mundiales, HPC, Penva, Zigo
-  </div>
   `
 })
 export class CtaFinalComponent {}
