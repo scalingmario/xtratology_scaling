@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MethodologyComponent } from '../../widgets/methodology/methodology.component';
+import { PrinciplesComponent } from '../../widgets/principles/principles.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, MethodologyComponent, PrinciplesComponent],
   template: `
   <main class="w-full">
     <!-- Hero Section -->
@@ -47,6 +49,9 @@ import { CommonModule } from '@angular/common';
         <p class="text-xl font-medium text-primary">"No escalas por esfuerzo. Escalas por diseño."</p>
       </div>
     </section>
+
+    <app-methodology></app-methodology>
+    <app-principles></app-principles>
   </main>
   `
 })
