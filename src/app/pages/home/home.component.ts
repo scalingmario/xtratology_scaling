@@ -20,15 +20,10 @@ import { CtaFinalComponent } from '../../widgets/cta-final/cta-final.component';
   template: `
     <main class="w-full bg-white">
       <app-hero></app-hero>
-      
       <app-principles></app-principles>
-      
       <app-problem></app-problem>
-
       <app-tools></app-tools>
-
       <app-cta-final></app-cta-final>
-      
     </main>
   `
 })
