@@ -6,16 +6,26 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   template: `
-  <header class="header-div w-full bg-white shadow-sm sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <a routerLink="/" class="logo focus:outline-none focus:ring-2 focus:ring-primary">
-        <img src="assets/LogoXtratology.png" alt="Logotipo Oficial de Xtratology" class="logo-img h-12 w-auto" width="200" height="50">
-      </a>
-      <nav class="hidden md:flex gap-6 items-center">
-        <a class="header-option text-secondary hover:text-primary transition-colors font-medium" href="#metodologia">Metodología</a>
-        <a class="header-option text-secondary hover:text-primary transition-colors font-medium" href="#">Become a Coach</a>
-        <a href="#contacto" class="nav-cta bg-primary text-white px-5 py-2 rounded-lg hover:bg-opacity-90 transition-all shadow-md font-semibold">Solicitar sesión estratégica</a>
+  <header class="w-full font-sans tracking-wide">
+    <div class="bg-primary px-6 py-4 flex items-center justify-between shadow-md sticky top-0 z-50">
+      <div class="text-white font-medium text-sm tracking-widest cursor-pointer" routerLink="/">
+        SCALING
+      </div>
+      
+      <nav class="hidden md:flex gap-6 text-xs text-blue-100 items-center">
+        <a href="#" class="hover:text-white transition-colors">Nosotros</a>
+        <a href="#" class="hover:text-white transition-colors">Scaling Up</a>
+        <a href="#metodologia" class="text-accent font-medium flex items-center gap-1">
+          <span>▸</span> Xtratology
+        </a>
+        <a href="#" class="hover:text-white transition-colors">Casos de Éxito</a>
+        <a href="#" class="hover:text-white transition-colors">Recursos</a>
+        <a href="#contacto" class="hover:text-white transition-colors">Contáctanos</a>
       </nav>
+      
+      <a href="#contacto" class="bg-accent text-primary text-xs px-4 py-2 rounded font-medium hover:bg-opacity-90 transition-all cursor-pointer">
+        Agenda una llamada
+      </a>
     </div>
   </header>
   `
