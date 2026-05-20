@@ -3,9 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeroComponent } from '../../widgets/hero/hero.component';
 import { PrinciplesComponent } from '../../widgets/principles/principles.component';
 import { ProblemComponent } from '../../widgets/problem/problem.component';
-import { MethodologyComponent } from '../../widgets/methodology/methodology.component';
-import { ResultsComponent } from '../../widgets/results/results.component';
-import { DifferentiatorsComponent } from '../../widgets/differentiators/differentiators.component';
+import { ToolsComponent } from '../../widgets/tools/tools.component';
 import { CtaFinalComponent } from '../../widgets/cta-final/cta-final.component';
 
 @Component({
@@ -16,9 +14,7 @@ import { CtaFinalComponent } from '../../widgets/cta-final/cta-final.component';
     HeroComponent,
     PrinciplesComponent,
     ProblemComponent,
-    MethodologyComponent,
-    ResultsComponent,
-    DifferentiatorsComponent,
+    ToolsComponent,
     CtaFinalComponent
   ],
   template: `
@@ -28,6 +24,10 @@ import { CtaFinalComponent } from '../../widgets/cta-final/cta-final.component';
       <app-principles></app-principles>
       
       <app-problem></app-problem>
+
+      <app-tools></app-tools>
+
+      <app-cta-final></app-cta-final>
       
     </main>
   `
